@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Manga Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://blogge/b/R29vZ2xl/AVvXsEgXuY969IekXWCWYB9DhLld9qYcekPJIsNB3yBZ6lJ1pA_uT39nwG3rz0U8K9SijpBZOoU7WXBGCawGXsy5clFrJHExEU6Qdveor4HgXn90QuAdM8QYtAV7Oh1JLq4qlyW5-ALiy9zzqs0eeKqdOI4MeE9J1gczHg-sBjJY5fBm93-GIVpRWVyHyR2ta8hr/s320/DALL%C2%B7E%202024-08-26%2018.10.43%20-%20A%20simple%20and%20modern%20logo%20for%20a%20bookstore%20named%20'BookVault.'%20The%20logo%20should%20feature%20a%20minimalist%20design,%20incorporating%20elements%20like%20a%20book%20or%20an%20open.webp" alt="Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by title, author, or ISBN">
+            <button>Search</button>
+        </div>
+        <div class="user-menu">
+            <a href="#">Login</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Cart</a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Box Sets</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#">Fiction Books</a></li>
+            <li><a href="#">Manga</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="https://www.bookswagon.com/bannerimages/31_inr.jpg?v=1.4" alt="Banner">
+        <div class="banner-content">
+            <h2>Holiday Magic in Every Box Set!</h2>
+            <p>Discover the joy of reading on a rainy day with our special collections.</p>
+            <button class="banner-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Trending Section -->
+    <section class="trending">
+        <h2>Now Trending</h2>
+        <div class="carousel">
+            <!-- Existing and New Book Items -->
+            <div class="carousel-item" data-title="20th Century Boys: The Perfect Edition" data-author="Naoki Urasawa" data-rating="4.8" data-price="₹1,200" data-description="A deluxe bind-up edition of Naoki Urasawa’s award-winning epic of doomsday cults, giant robots and a group of friends trying to save the world from destruction!">
+                <img src="https://m.media-amazon.com/images/I/81Uq6igL82L._AC_UF1000,1000_QL80_.jpg" alt="20th Century Boys">
+                <h3>20th Century Boys: The Perfect Edition</h3>
+                <p>By Naoki Urasawa</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹1,200 <span class="discount">20% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Vagabond Vol. 1" data-author="Takehiko Inoue" data-rating="4.5" data-price="₹1,432" data-description="A stunning tale of the legendary samurai Miyamoto Musashi.">
+                <img src="https://m.media-amazon.com/images/I/A1wpqSGuCNL._AC_UF1000,1000_QL80_.jpg" alt="Vagabond Vol. 1">
+                <h3>Vagabond Vol. 1</h3>
+                <p>By Takehiko Inoue</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹1,432 <span class="discount">34% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Vinland Saga" data-author="Makoto Yukimura" data-rating="4.7" data-price="₹1,200" data-description="A gripping story of Vikings and the search for a legendary land.">
+                <img src="https://m.media-amazon.com/images/I/91+Qs9DaFZL._AC_UF1000,1000_QL80_.jpg" alt="Vinland Saga">
+                <h3>Vinland Saga</h3>
+                <p>By Makoto Yukimura</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹1,200 <span class="discount">20% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="I Want To Eat Your Pancreas" data-author="Yoru Sumino" data-rating="4.9" data-price="₹950" data-description="A heartwarming tale of love and loss.">
+                <img src="https://m.media-amazon.com/images/I/81eE70hiNzL._AC_UF1000,1000_QL80_.jpg" alt="I Want To Eat Your Pancreas">
+                <h3>I Want To Eat Your Pancreas</h3>
+                <p>By Yoru Sumino</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹950 <span class="discount">10% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="One Piece Vol. 1" data-author="Eiichiro Oda" data-rating="4.9" data-price="₹800" data-description="A journey of a young boy who aims to become the Pirate King.">
+                <img src="https://m.media-amazon.com/images/I/91NxYvUNf6L._AC_UF1000,1000_QL80_.jpg" alt="One Piece Vol. 1">
+                <h3>One Piece Vol. 1</h3>
+                <p>By Eiichiro Oda</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹800 <span class="discount">15% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Naruto Vol. 1" data-author="Masashi Kishimoto" data-rating="4.8" data-price="₹900" data-description="The story of a young ninja with dreams of becoming the strongest ninja leader.">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQwf32sdpxid4qnXq_BkxJf_8OAt120hm6rAYPVUrvelEhsXBSs" alt="Naruto Vol. 1">
+                <h3>Naruto Vol. 1</h3>
+                <p>By Masashi Kishimoto</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹900 <span class="discount">20% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Attack on Titan Vol. 1" data-author="Hajime Isayama" data-rating="4.9" data-price="₹950" data-description="Humanity's struggle against the Titans and the secrets behind their existence.">
+                <img src="https://m.media-amazon.com/images/I/51QWSFImgvL._SY780_.jpg" alt="Attack on Titan Vol. 1">
+                <h3>Attack on Titan Vol. 1</h3>
+                <p>By Hajime Isayama</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹950 <span class="discount">10% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Death Note Vol. 1" data-author="Tsugumi Ohba" data-rating="4.8" data-price="₹850" data-description="A high school student discovers a notebook that allows him to kill anyone whose name he writes in it.">
+                <img src="https://m.media-amazon.com/images/I/81iDNjn-r3L._AC_UF1000,1000_QL80_.jpg" alt="Death Note Vol. 1">
+                <h3>Death Note Vol. 1</h3>
+                <p>By Tsugumi Ohba</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹850 <span class="discount">25% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="Fullmetal Alchemist Vol. 1" data-author="Hiromu Arakawa" data-rating="4.9" data-price="₹950" data-description="Two brothers search for the Philosopher's Stone to restore their bodies.">
+                <img src="https://m.media-amazon.com/images/I/819gbwpjLcL._AC_UF1000,1000_QL80_.jpg" alt="Fullmetal Alchemist Vol. 1">
+                <h3>Fullmetal Alchemist Vol. 1</h3>
+                <p>By Hiromu Arakawa</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹950 <span class="discount">10% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="JoJo's Bizarre Adventure Vol. 1" data-author="Hirohiko Araki" data-rating="4.6" data-price="₹1,100" data-description="An epic tale of an unusual family and their battles against supernatural enemies.">
+                <img src="https://m.media-amazon.com/images/I/818fOuBHTnL._AC_UF1000,1000_QL80_.jpg" alt="JoJo's Bizarre Adventure Vol. 1">
+                <h3>JoJo's Bizarre Adventure Vol. 1</h3>
+                <p>By Hirohiko Araki</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹1,100 <span class="discount">15% off</span></div>
+            </div>
+            <div class="carousel-item" data-title="One Punch Man Vol. 1" data-author="ONE" data-rating="4.9" data-price="₹1,000" data-description="A superhero who can defeat any opponent with a single punch seeks a worthy challenge.">
+                <img src="https://m.media-amazon.com/images/I/81VAgJoB3BL._AC_UF1000,1000_QL80_.jpg" alt="One Punch Man Vol. 1">
+                <h3>One Punch Man Vol. 1</h3>
+                <p>By ONE</p>
+                <div class="rating">★★★★☆</div>
+                <div class="price">₹1,000 <span class="discount">20% off</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="manga-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-title"></h2>
+            <p id="modal-author"></p>
+            <p id="modal-rating"></p>
+            <p id="modal-price"></p>
+            <p id="modal-description"></p>
+            <button id="buy-now-btn">Buy Now</button>
+            <button id="add-to-cart-btn">Add to Cart</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
